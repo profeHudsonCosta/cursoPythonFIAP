@@ -21,9 +21,6 @@ for elemento in inventario:
     if busca == elemento[0]:
         print("Valor..: ", elemento[1])
         print("Serial.: ", elemento[2])
-        break
-    else:
-        print("Elemento não encontrado!")
 
 depreciacao = input("Digite o nome do equipamento que será depreciado: ").upper()
 for elemento in inventario:
