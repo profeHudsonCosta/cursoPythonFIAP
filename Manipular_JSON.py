@@ -1,5 +1,3 @@
-import json
-import os
 from Funcoes_JSON import*
 
 inventario = ler_arquivo("inventario_json.json")
